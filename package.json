@@ -1,0 +1,32 @@
+{
+  "name": "react-native-heatmap-chart",
+  "version": "1.0.0",
+  "description": "React-Native Heatmap Chart",
+  "main": "index.js",
+  "scripts": {
+    "start": "echo ----- Check example folder  -----",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "react-native",
+    "heatmap",
+    "heatmap grid",
+    "heatmap chart",
+    "react"
+  ],
+  "author": "Yuri Faria <yuri.yurifaria@gmail.com> (https://windows87.github.io)",
+  "license": "Apache-2.0",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Windows87/react-native-heatmap.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Windows87/react-native-heatmap/issues"
+  },
+  "peerDependencies": {
+    "react-native": "^0.41.2"
+  },
+  "dependencies": {
+    "prop-types": "^15.7.2"
+  }
+}
