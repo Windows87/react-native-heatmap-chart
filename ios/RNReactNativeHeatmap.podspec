@@ -6,7 +6,7 @@ Pod::Spec.new do |s|
   s.description  = <<-DESC
                   RNReactNativeHeatmap
                    DESC
-  s.homepage     = ""
+  s.homepage     = "https://github.com/Windows87/react-native-heatmap-chart/"
   s.license      = "MIT"
   # s.license      = { :type => "MIT", :file => "FILE_LICENSE" }
   s.author             = { "author" => "author@domain.cn" }
