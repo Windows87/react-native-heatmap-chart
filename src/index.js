@@ -19,7 +19,7 @@ const HeatMapBlock = ({ size, value, index, colors, colorsPercentage, maximumVal
     return null;
 
   return (
-    <TouchableOpacity onPress={() => onBlockPress({ value, index })} style={[styles.heatMapBlock, { backgroundColor: color, width: size, height: size }, style]}>
+    <TouchableOpacity onPress={(event) => {onBlockPress({ value, index, event })}} style={[styles.heatMapBlock, { backgroundColor: color, width: size, height: size }, style]}>
     </TouchableOpacity>
   );
 }
